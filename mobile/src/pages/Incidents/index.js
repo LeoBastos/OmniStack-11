@@ -71,6 +71,9 @@ export default function Incidents(){
                         
                         <Text style={styles.incidentProperty}>CASO:</Text>
                         <Text style={styles.incidentValue}>{incident.title}</Text>
+                        
+                        <Text style={styles.incidentProperty}>Descrição:</Text>
+                        <Text style={styles.incidentValue}>{incident.description}</Text>
 
                         <Text style={styles.incidentProperty}>VALOR:</Text>
                         <Text style={styles.incidentValue}>
